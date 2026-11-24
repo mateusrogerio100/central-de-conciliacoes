@@ -1,0 +1,16 @@
+Assunto: Notas fiscais pendentes de registro - Competência {competencia}
+
+Prezados(as) Gerente e equipe
+
+Solicitamos o registro das notas fiscais de prestação de serviços referentes à competência de {competencia_extenso} que ainda não foram encaminhadas para registro. Caso as mesmas não sejam devidas solicitar o cancelamento junto ao fornecedor dentro da competência {competencia}
+
+É imprescindível que todas as notas fiscais pendentes sejam enviadas e registradas até o dia {prazo}, garantindo o correto reconhecimento das despesas de acordo com o Princípio da Competência.
+
+O registro dentro do prazo é fundamental para assegurar a fidedignidade das demonstrações contábeis e evitar apontamentos ou questionamentos durante os trabalhos da auditoria externa.
+
+Contamos com a colaboração de todos.
+
+Notas pendentes (anexas):
+{lista_notas}
+
+Contabilidade

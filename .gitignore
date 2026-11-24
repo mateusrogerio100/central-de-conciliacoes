@@ -1,0 +1,46 @@
+# Dados sensíveis (saldos e nomes reais) — nunca vão para o git
+exemplos/
+origem/
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+*.pdf
+*.txt
+!requirements.txt
+saida/
+saidas/
+arquivos_entrada/
+# pasta de trabalho do usuário com os arquivos reais do estoque (os exemplos ficam em exemplos/)
+modulos/conciliacoes_estoques/
+# exceção: configuração de fábrica da EST-02 (só códigos e nomes de operações, sem saldos)
+!modulos/conciliacao_estoque/recursos/Configuracao_EST-02_Itens_mapa_estoque.xlsx
+# exceção: modelos vazios da configuração do Notas de Contrato (só a linha de títulos)
+!modulos/checklist_contratos/modelos_configuracao/*.csv
+!modulos/convenios/modelos_configuracao/*.csv
+!modulos/planilha_hm/modelos_configuracao/*.csv
+# exceção: modelo de fábrica do e-mail do Notas Pendentes (só o texto, sem dado sensível)
+!modulos/notas_pendentes/modelos_configuracao/modelo_email.txt
+# credenciais e token do Gmail (Notas de Contrato) nunca vão para o git
+credentials*.json
+gmail_token*.json
+
+# Ambiente e build
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Configurações locais
+.vscode/
+.claude/settings.local.json
+
+# Manual (Etapa 12 da unificação): exemplos fictícios e prints/PDF gerados pelos scripts de manual/
+exemplos_ficticios/
+manual/saida/

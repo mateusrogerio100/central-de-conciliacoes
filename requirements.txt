@@ -1,0 +1,15 @@
+# Versões fixas: as mesmas dos três programas originais (garantem os mesmos resultados).
+openpyxl==3.1.5
+pandas==3.0.6
+pdfplumber==0.11.10
+xlrd==2.0.2
+pypdfium2==5.13.0
+customtkinter==6.0.0
+pillow==12.3.0
+pytest==9.1.1
+pyinstaller==6.22.3
+# Notas de Contrato — rascunhos no Gmail (login do Google). Versões com pelo menos duas semanas de uso.
+google-auth-oauthlib==1.5.0
+google-auth==2.59.1
+requests==2.34.2
+certifi==2026.7.22
