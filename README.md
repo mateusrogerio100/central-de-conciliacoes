@@ -7,6 +7,8 @@ hospital filantrópico: lê os relatórios do ERP hospitalar, os extratos bancá
 cruza as informações com as regras contábeis e entrega uma planilha Excel pronta para revisão, com
 cada divergência explicada.
 
+![Conferência de notas fiscais: arquivos de entrada à esquerda e o resultado à direita](docs/telas/conferencia_nf.png)
+
 > Projeto real, em uso diário pela equipe de contabilidade. Este repositório é uma cópia **anonimizada**,
 > publicada com autorização: nomes da instituição, das unidades e das cidades, CNPJs, pessoas e
 > caminhos de rede foram trocados por dados fictícios. Os documentos internos (especificações e regras
@@ -46,6 +48,16 @@ Princípios que valem para todos os módulos:
 - **Nada some em silêncio**: todo arquivo e toda linha aparecem no relatório com o que aconteceu.
 - **Um arquivo com problema não derruba o processamento**: o erro é registrado e os demais seguem.
 - **Divergência é explicada**, não só apontada (ex.: "Líquido: ERP 49,51 × banco 49,50").
+
+## Telas
+
+Todas com dados fictícios, geradas pelo próprio projeto (`python -m manual.tirar_prints`).
+
+| Conciliação bancária | Conferência de ISS (5 municípios) |
+|---|---|
+| ![Conciliação bancária](docs/telas/bancos.png) | ![Conferência de ISS](docs/telas/conferencia_iss.png) |
+| **Estoque** | **Modo escuro** |
+| ![Conciliação de estoque](docs/telas/estoque.png) | ![Modo escuro](docs/telas/modo_escuro.png) |
 
 ## Arquitetura
 
